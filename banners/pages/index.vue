@@ -1,12 +1,11 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
       <h1 class="title">
-        banners
+        WebDevMastery
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        Banner Series Tutorial
       </h2>
       <div class="links">
         <a
