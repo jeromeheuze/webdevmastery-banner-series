@@ -4,8 +4,20 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      bodyAttrs: {
+        class: 'homepage'
+      }
+    }
+  }
+}
+</script>
+
 <style>
-html {
+html, body {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
@@ -15,12 +27,13 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
+.homepage {
+  background: #fff;
+}
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
 }
-
 .button--green {
   display: inline-block;
   border-radius: 4px;

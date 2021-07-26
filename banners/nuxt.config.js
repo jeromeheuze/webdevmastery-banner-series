@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -7,7 +8,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'WebDevMastery banner project' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -21,6 +22,9 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    splitChunks: {
+      layouts: true
+    },
     /*
     ** Run ESLint on save
     */
