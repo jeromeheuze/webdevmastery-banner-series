@@ -9,6 +9,7 @@
       </h2>
       <div class="links">
         <NuxtLink to="/retro-gaming" class="button--grey">Retro gaming</NuxtLink>
+        <NuxtLink to="/crypto-currency" class="button--grey">Crypto Currency</NuxtLink>
       </div>
     </div>
   </section>
